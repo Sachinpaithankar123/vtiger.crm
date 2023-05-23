@@ -3,3 +3,7 @@ selenium
 manual
 sql
 web sevices
+
+WebDriver driver = new ChromeDriver();
+driver.get("");
+driver.manage().windows().maximize();
